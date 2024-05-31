@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Danieale's Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/tictactoe.css" />
+	<link rel="stylesheet" href="assets/css/styles2.css" />
+	<link rel="stylesheet" href="assets/css/memories.css"/>
+</head>
+<body class="is-preload">
+
+    <!-- Header -->
+    <div id="header">
+        <div class="top">
+            <!-- Logo -->
+            <div id="logo">
+                <span class="image avatar48"><img src="images/Profile.jpg" alt="" /></span>
+                <h1 id="title">Irfan Danieal</h1>
+                <p>bin Ibrahim</p>
+            </div>
+
+            <!-- Nav -->
+            <nav id="nav">
+                <ul>
+                    <li><a href="#top" id="top-link"><span class="icon solid fa-home">Home</span></a></li>
+				    <li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
+                    <li><a href="#passion" id="passion-link"><span class="icon solid fa-th">My Passion</span></a></li>
+                    <li><a href="#projects" id="projects-link"><span class="icon solid fa-folder">My Project</span></a></li>
+					<li><a href="#memories" id="memories-link"><span class="icon solid fa-camera">Memories</span></a></li>
+                    <li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="bottom">
+            <!-- Social Icons -->
+            <ul class="icons">
+
+            </ul>
+        </div>
+    </div>
+
+    <!-- Main -->
+    <div id="main">
+        <!-- Intro -->
+        <section id="top" class="one dark cover">
+            <div class="container">
+                <header>
+                    <h2 class="alt">Hi! I'm <strong> Danieal</strong>, a Content Creator.</h2>
+                    <p>All you wanna know about me is in here!<br />
+                    "If you're not smilling, you're doing it wrong!"- Alex <br />
+					(My favourite childhood youtuber)</p>
+                </header>
+                <footer>
+                    <a href="#passion" class="button scrolly">View My Portfolio</a>
+                </footer>
+            </div>
+        </section>
+        <!-- About Me -->
+        <section id="about" class="four">
+            <div class="container">
+                <header>
+                    <h2>About Me</h2>
+                </header>
+                <div class="slider">
+                   <div class="slides">
+                      <div class="slide"><img src="images/slide-1.jpg" alt="Image 1"></div>
+                      <div class="slide"><img src="images/slide-2.jpg" alt="Image 2"></div>
+                      <div class="slide"><img src="images/slide-3.jpg" alt="Image 3"></div>
+					  <div class="slide"><img src="images/slide-4.jpg" alt="Image 4"></div>
+                   </div>
+                 <div class="controls">
+               <span class="prev" onclick="moveSlide(-1)">&#10094;</span>
+             <span class="next" onclick="moveSlide(1)">&#10095;</span>
+                    </div>
+            </div>
+			    ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ 
+				‎ ‎ ‎ ‎ ‎ ‎ 
+                <p>
+				My name is Irfan Danieal bin Ibrahim, and I am a 23-year-old residing in 
+				Puncak Alam, Selangor, Malaysia. I earned my Diploma in Computer Science from 
+				Kolej Professional MARA Beranang in Negeri Sembilan, Malaysia, where I studied 
+				from 2019 to 2022. During my diploma studies, I gained extensive knowledge about
+				various technologies, which ignited my passion for the field. This passion led me
+				to further my education with a degree in Multimedia Computing at UiTM Shah Alam.
+				There, I discovered a profound interest in video and photo editing, along with 
+				coding. These interests not only fuel my enthusiasm but also empower me to create 
+				engaging and professional content.</p>
+            </div>
+        </section>
+        <!-- Passion -->
+        <section id="passion" class="two">
+            <div class="container">
+                <header>
+                    <h2>My Passion</h2>
+                </header>
+                <p>My passion revolves around the dynamic realm of gaming, particularly with 
+				titles such as Genshin Impact, Wuthering Waves, Valorant and other games as well. I actively engage
+				in streaming these games on TikTok, leveraging this platform to share my gameplay
+				experiences and connect with a broader audience. Additionally, I have a keen interest
+				in photo and video editing, which allows me to create high-quality, engaging content
+				that enhances my streaming activities. This combination of gaming and content creation
+				not only fuels my enthusiasm but also enables me to build and interact with a community 
+				of like-minded individuals, fostering a professional and enjoyable environment.</p>
+                <div class="row">
+                    <div class="col-4 col-12-mobile">
+                        <article class="item">
+                            <a href="#" class="image fit"><img src="images/Genshin.jpg" alt="" /></a>
+                            <header>
+                                <h3>Genshin Impact</h3>
+                            </header>
+                        </article>
+                        <article class="item">
+                            <a href="#" class="image fit"><img src="images/bs.png" alt="" /></a>
+                            <header>
+                                <h3>Blackshot Revolution</h3>
+                            </header>
+                        </article>
+                    </div>
+                    <div class="col-4 col-12-mobile">
+                        <article class="item">
+                            <a href="#" class="image fit"><img src="images/video.jpg" alt="" /></a>
+                            <header>
+                                <h3>Video and Audio Editing</h3>
+                            </header>
+                        </article>
+                        <article class="item">
+                            <a href="#" class="image fit"><img src="images/sky.jpg" alt="" /></a>
+                            <header>
+                                <h3>Sky Children of The Light</h3>
+                            </header>
+                        </article>
+                    </div>
+                    <div class="col-4 col-12-mobile">
+                        <article class="item">
+                            <a href="#" class="image fit"><img src="images/wuwa.jpg" alt="" /></a>
+                            <header>
+                                <h3>Wuthering Waves</h3>
+                            </header>
+                        </article>
+                        <article class="item">
+                            <a href="#" class="image fit"><img src="images/valo.jpg" alt="" /></a>
+                            <header>
+                                <h3>Valorant</h3>
+                            </header>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- My Projects -->
+ <section id="projects" class="three">
+    <div class="container">
+        <header>
+            <h2>My Projects</h2>
+        </header>
+        <p>I chose to include the Tic Tac Toe game in my portfolio 
+		because it provides a clear and engaging demonstration of my 
+		core web development skills. This classic game allows me to 
+		showcase my ability to create a responsive and interactive user
+		interface, implement essential JavaScript logic, and manage user 
+		interactions effectively. By developing this project, I can illustrate 
+		my proficiency in front-end development in a way that's both approachable
+		and professional, making it an ideal addition to my portfolio.</p>
+        <!-- Tic Tac Toe Game -->
+        <div id="tictactoe">
+            <h3>Tic Tac Toe Game</h3>
+            <div class="game-container">
+                <div class="board" id="board">
+                    <div class="cell" data-cell></div>
+                    <div class="cell" data-cell></div>
+                    <div class="cell" data-cell></div>
+                    <div class="cell" data-cell></div>
+                    <div class="cell" data-cell></div>
+                    <div class="cell" data-cell></div>
+                    <div class="cell" data-cell></div>
+                    <div class="cell" data-cell></div>
+                    <div class="cell" data-cell></div>
+                </div>
+                <div class="winning-message" id="winningMessage">
+                    <div data-winning-message-text></div>
+                    <button id="restartButton">Restart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+   </section>
+
+   <!-- Memories Section -->
+    <section id="memories" class="three">
+       <div class="container">
+        <header>
+            <h2>Memories</h2>
+        </header>
+        <p>These are my cherished memories from KPM Beranang, a place where I learned so much while working towards 
+          my diploma. The journey was filled with valuable lessons and experiences that helped me grow both academically
+           and personally. Along the way, I made a lot of positive friends who supported me and made the process enjoyable.
+           In this video, you can see my very first portfolio, a project I created at KPM Beranang. It captures not just my 
+           hard work, but also the wonderful experiences and friendships that made my time there so special.</p>
+            <div class="video-grid">
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/flsm-tO9DAE?si=u0DS4IBqcjCoBxub" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/89Tz8_FaIrY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/IwaOaWuSSX4?si=tTktC99zqapBkueW" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+       </div>
+    </section>
+
+        <!-- Contact -->
+        <section id="contact" class="five">
+            <div class="container">
+                <header>
+                    <h2>Contact</h2>
+                </header>
+                <p>If you have any inquiries, please don't hesitate to reach out to me. 
+				I'm always open to answering questions, providing more information, or 
+				engaging in discussions. Whether you're curious about my experiences, my
+				interests, or simply want to connect, feel free to contact me. Your questions
+				and feedback are valuable to me, and I'm here to help in any way I can. Thank 
+				you for your interest!</p>
+                <form method="post" action="#">
+                    <div class="row">
+                        <div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
+                        <div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
+                        <div class="col-12">
+                            <textarea name="message" placeholder="Message"></textarea></div>
+                        <div class="col-12">
+                            <input type="submit" value="Send Message" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+        <!-- Copyright -->
+        <ul class="copyright">
+            <li>&copy; Danieale. All rights reserved.</li>
+        </ul>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+	<script src="assets/js/tictactoe.js"></script>
+	<script src="assets/js/script.js"></script>
+	<script src="assets/js/youtube-player.js"></script>
+</body>
+</html>
